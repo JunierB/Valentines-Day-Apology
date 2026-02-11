@@ -12,7 +12,7 @@ const questions = [
             "Online / Social media",
             "At school or work"
         ],
-        correct: 1  // Change this index (0-3) to match the real answer!
+        correct: 1  // Through mutual friends
     },
     {
         question: "What's my favourite thing about you? 🥰",
@@ -32,17 +32,17 @@ const questions = [
             "Taking long walks",
             "Just vibing and talking for hours"
         ],
-        correct: 0  // Change this to match your reality!
+        correct: 0  // Watching movies / TV shows
     },
     {
         question: "What would I choose for our dream Valentine's date? 💕",
         options: [
             "Fancy dinner and a movie",
-            "A cozy night in with snacks",
+            "A cozy night in with snacks and a movie",
             "A surprise adventure somewhere new",
             "Anywhere, as long as I'm with you"
         ],
-        correct: 1  // Correct answer: "Anywhere as long as I'm with you"
+        correct: 1  // Correct answer: A cozy night in with snacks and a movie
     }
 ];
 
@@ -174,16 +174,16 @@ function showScore() {
 
         if (score === 4) {
             scoreIcon.textContent = '🏆';
-            scoreMsg.textContent = "Perfect score! You know our love story inside and out! 💕";
+            scoreMsg.textContent = "Perfect score! !0 Pc wings combo and famous bowl coming up 💕";
         } else if (score === 3) {
             scoreIcon.textContent = '🌟';
-            scoreMsg.textContent = "Amazing! You know us so well, almost perfect! 💖";
+            scoreMsg.textContent = "Jah Jah ute second place, 1st loser that (still getting the food) 💖";
         } else if (score === 2) {
             scoreIcon.textContent = '💝';
-            scoreMsg.textContent = "Not bad! We still have so many memories to make together! 🥰";
+            scoreMsg.textContent = "Jah ";
         } else {
             scoreIcon.textContent = '💗';
-            scoreMsg.textContent = "That's okay! What matters is we're making new memories every day! 💕";
+            scoreMsg.textContent = "Pooorrrrrrrrrrrrrrrrrr";
         }
     }, 400);
 }
